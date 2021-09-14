@@ -160,6 +160,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -172,6 +187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
         type: 3}
@@ -190,16 +210,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -213,30 +223,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 54058512767473979, guid: bcc3b6c927f579847ad391ea7d6eff7d,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 54058512767473980, guid: bcc3b6c927f579847ad391ea7d6eff7d,
         type: 3}
       propertyPath: m_Name
       value: Eagle King Fly_0
       objectReference: {fileID: 0}
-    - target: {fileID: 4146145662017066144, guid: bcc3b6c927f579847ad391ea7d6eff7d,
+    - target: {fileID: 54058512767473980, guid: bcc3b6c927f579847ad391ea7d6eff7d,
         type: 3}
-      propertyPath: m_GravityScale
-      value: 2
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4146145662017066144, guid: bcc3b6c927f579847ad391ea7d6eff7d,
         type: 3}
       propertyPath: m_Constraints
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146145662017066144, guid: bcc3b6c927f579847ad391ea7d6eff7d,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc3b6c927f579847ad391ea7d6eff7d, type: 3}
@@ -286,6 +291,7 @@ MonoBehaviour:
   - {fileID: 8515641550173995828, guid: a98ece73190b78b408c72b70ca82e132, type: 3}
   - {fileID: 8144646475033709265, guid: 4f24bf59920171f40927b91d428d5b73, type: 3}
   spawner: {fileID: 47955516}
+  playerPrefab: {fileID: 1342032835}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

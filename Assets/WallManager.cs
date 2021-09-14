@@ -24,7 +24,6 @@ public class WallManager : MonoBehaviour
             GameObject obj = (GameObject)Instantiate(walls[id], 
                 spawner.transform.position, 
                 spawner.transform.rotation);
-
         }
     }
 }
